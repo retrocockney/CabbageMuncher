@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cabbage-muncher
+    runtime: static
+    buildCommand: "echo 'No build required'"
+    staticPublishPath: .
